@@ -13,7 +13,7 @@
   <!-- NAV -->
   <nav>
     <a href="/" class="logo">
-      <img src="/img/logo.png" width="36" height="36" alt="R2 logo" />
+      <img id="site-logo" src="/img/logo.png" width="36" height="36" alt="R2 logo" />
       <div class="logo-text">
         <span class="brand">R2</span>
         <span class="sub">Community Project</span>
@@ -77,14 +77,22 @@
   </footer>
 
   <script>
+    function updateLogo() {
+      const logo = document.getElementById('site-logo');
+      if (!logo) return;
+      const isLight = document.documentElement.classList.contains('light');
+      logo.src = isLight ? '/img/logo-light.png' : '/img/logo.png';
+    }
     function toggleTheme() {
       const html = document.documentElement;
       html.classList.toggle('light');
       localStorage.setItem('theme', html.classList.contains('light') ? 'light' : 'dark');
+      updateLogo();
     }
     if (localStorage.getItem('theme') === 'light') {
       document.documentElement.classList.add('light');
     }
+    updateLogo();
   </script>
 </body>
 </html>

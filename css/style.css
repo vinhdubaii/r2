@@ -11,8 +11,8 @@
   --surface: #0b0f1a;
   --surface2: #111823;
   --border: #1a2133;
-  --accent: #5eead4;
-  --accent2: #0958b2;
+  --accent: #0958b2;
+  --accent2: #5eead4;
   --text: #94a3b8;
   --text-dim: #4b5a72;
   --white: #e2e8f0;
@@ -30,8 +30,8 @@ html.light {
   --surface: #ffffff;
   --surface2: #e8edf5;
   --border: #d0d8e8;
-  --accent: #0d9488;
-  --accent2: #0958b2;
+  --accent: #0958b2;
+  --accent2: #0d9488;
   --text: #475569;
   --text-dim: #94a3b8;
   --white: #1e293b;
@@ -45,7 +45,7 @@ html.light .hero-content p {
   color: var(--white);
   text-shadow: none;
 }
-html.light .hero-content h1 span { color: #0a7a94; }
+html.light .hero-content h1 span { color: #0958b2; }
 html.light .btn-ghost { color: var(--white); border-color: rgba(30,41,59,0.25); }
 
 html.light .card,
@@ -217,7 +217,7 @@ html.light .hero-bg {
   text-shadow: 0 2px 20px rgba(0,0,0,0.5);
 }
 
-.hero-content h1 span { color: #0a7a94; }
+.hero-content h1 span { color: #0958b2; }
 
 .hero-content p {
   font-size: 1rem;
@@ -807,7 +807,7 @@ main {
 .momo-logo { display: inline-flex; align-items: center; gap: 0.5rem; margin-bottom: 1.25rem; }
 .momo-logo-icon {
   width: 38px; height: 38px;
-  background: linear-gradient(135deg, #0dd3c4, #0958b2);
+  background: linear-gradient(135deg, #0958b2, #5eead4);
   border-radius: 10px;
   display: flex;
   align-items: center;
@@ -854,7 +854,7 @@ main {
   letter-spacing: 0.08em;
   text-transform: uppercase;
   text-decoration: none;
-  background: linear-gradient(135deg, #0dd3c4, #0958b2);
+  background: linear-gradient(135deg, #0958b2, #5eead4);
   color: #fff;
   transition: all 0.2s;
   box-shadow: 0 0 20px rgba(13,148,161,0.25);
