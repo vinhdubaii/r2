@@ -1,0 +1,108 @@
+{
+  "news": [
+    {
+      "id": "aethyst 26h2",
+      "date": "2026-08-11",
+      "title": "R2 Workstation 26H2",
+      "body": "R2 Workstation 26H2 is planned for official release in Fall 2026, built with the open-source Tiny11 Automated Builder toolkit. This release carries forward the full feature set of Microsoft's original 26H2 platform, so nothing that makes Windows work the way you expect has been stripped out — file explorer, settings, drivers, and app compatibility all behave exactly as they do upstream.\n\nWhat changes is everything running underneath. The build is tuned to reduce RAM and CPU overhead at idle and under load, giving lower-spec and mid-range hardware noticeably more headroom for real work. Alongside the performance tuning, this release removes bundled malware, bloatware, and Microsoft's telemetry and tracking processes, so the system reports less, phones home less, and spends its resources on your workload instead of background collection.\n\nAs with every R2 release, Windows Update, Defender, and core authentication services are left intact — the goal is a leaner, more private Windows, not a broken one.\n\nHighlights:\n- Full upstream 26H2 feature parity — no missing functionality\n- Built on the Tiny11 Automated Builder open-source pipeline\n- Optimized RAM and CPU usage for smoother performance on modest hardware\n- Malware, bloatware, and telemetry/tracking processes removed\n- Windows Update and Defender preserved for update stability and baseline protection\n- Targeted release window: Fall 2026"
+    },
+    {
+      "id": "canary-build-28020-1611",
+      "date": "2026-02-15",
+      "title": "Users who subscribe to the project are offered access to the Canary Build 28020.1611.",
+      "body": ""
+    },
+    {
+      "id": "workstation-26-02-1-stable",
+      "date": "2026-02-12",
+      "title": "NuxOS Workstation 26.02.1 Stable has been officially released.",
+      "body": ""
+    },
+    {
+      "id": "next-released",
+      "date": "2026-02-04",
+      "title": "NuxOS NEXT was released",
+      "body": ""
+    },
+    {
+      "id": "next-evolved",
+      "date": "2026-02-02",
+      "title": "NuxOS NEXT has evolved.",
+      "body": ""
+    },
+    {
+      "id": "nux-toolbox-releases",
+      "date": "2026-01-20",
+      "title": "Nux ToolBox releases.",
+      "body": ""
+    },
+    {
+      "id": "server-releases",
+      "date": "2026-01-20",
+      "title": "NuxOS Server releases.",
+      "body": ""
+    },
+    {
+      "id": "10-enterprise-ltsc-release",
+      "date": "2026-01-15",
+      "title": "NuxOS 10 Enterprise LTSC release.",
+      "body": ""
+    },
+    {
+      "id": "11-creator-releases",
+      "date": "2025-12-28",
+      "title": "NuxOS11 Creator releases.",
+      "body": ""
+    },
+    {
+      "id": "gaming-edition-releases",
+      "date": "2025-11-27",
+      "title": "NuxOS Gaming Edition releases.",
+      "body": ""
+    },
+    {
+      "id": "pro-25h2-releases",
+      "date": "2025-11-23",
+      "title": "NuxOS Pro 25H2 releases.",
+      "body": ""
+    },
+    {
+      "id": "enterprise-ltsc-v1-1-releases",
+      "date": "2025-11-15",
+      "title": "NuxOS Enterprise LTSC v1.1 releases.",
+      "body": ""
+    },
+    {
+      "id": "enterprise-ltsc-v1-0-releases",
+      "date": "2025-11-13",
+      "title": "NuxOS Enterprise LTSC v1.0 releases.",
+      "body": ""
+    },
+    {
+      "id": "8-1-released",
+      "date": "2025-10-29",
+      "title": "NuxOS 8.1 released.",
+      "body": ""
+    }
+  ],
+  "development": [
+    {
+      "id": "workstation-under-development",
+      "date": "2026-02-04",
+      "title": "NuxOS Workstation is currently under development.",
+      "body": ""
+    },
+    {
+      "id": "next-testing-phase",
+      "date": "2026-02-03",
+      "title": "NuxOS NEXT is currently in the testing phase.",
+      "body": ""
+    },
+    {
+      "id": "next-under-development",
+      "date": "2026-01-30",
+      "title": "NuxOS NEXT is currently under development.",
+      "body": ""
+    }
+  ]
+}

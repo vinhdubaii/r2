@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About — R2 Community Project</title>
+  <link rel="icon" type="image/png" href="/img/favicon.png" />
+  <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;600;700&family=Source+Sans+3:wght@300;400;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/css/style.css" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav>
+    <a href="/" class="logo">
+      <img src="/img/logo.png" width="36" height="36" alt="R2 logo" />
+      <div class="logo-text">
+        <span class="brand">R2</span>
+        <span class="sub">Community Project</span>
+      </div>
+    </a>
+    <div class="nav-right">
+    <ul class="nav-links">
+      <li><a href="/about" class="active">About</a></li>
+      <li><a href="/downloads">Downloads</a></li>
+      <li><a href="/releases">Releases</a></li>
+      <li><a href="/community">Community</a></li>
+      <li><a href="https://github.com/vinhdubaii">Github</a></li>
+      <li><a href="/donate">Donate</a></li>
+    </ul>
+    <button class="theme-toggle" onclick="toggleTheme()" title="Toggle theme">
+      <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+      <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+    </button>
+    </div>
+  </nav>
+
+  <!-- PAGE HERO -->
+  <div class="page-hero">
+    <div class="label">About R2</div>
+    <h1>A Purpose-Built Windows-Based<br>Operating System</h1>
+    <p>R2 is a community-driven OS designed with one clear principle: an operating system should serve its purpose, not pretend to serve everyone.</p>
+  </div>
+
+  <!-- CONTENT -->
+  <div class="container">
+
+    <!-- Intro -->
+    <div class="section">
+      <div class="section-label">Overview</div>
+      <h2>Windows, Made for You Again</h2>
+      <p>R2 is a personal-use build of Windows, stripped of bloatware and telemetry, built for people who just want a clean, private, and reliable system without the background noise Windows normally carries.</p>
+    </div>
+
+    <hr class="divider" />
+
+    <!-- Philosophy -->
+    <div class="section">
+      <div class="section-label">Philosophy</div>
+      <h2>Built by Purpose, Not by Trend</h2>
+      <p>Most modified operating systems attempt to be everything at once: lightweight, gaming-ready, server-capable, secure, and beginner-friendly — often at the cost of clarity and reliability.</p>
+      <p>R2 takes a different path. It has one clear target: everyday personal use. A defined set of trade-offs, and a responsibility to do exactly what it claims. Nothing more. Nothing less.</p>
+      <p>You install R2. You get a quieter Windows. We keep it that way.</p>
+    </div>
+
+    <hr class="divider" />
+
+    <!-- Design Principles -->
+    <div class="section">
+      <div class="section-label">Design Principles</div>
+      <h2>What R2 Stands For</h2>
+      <div class="principles-grid">
+        <div class="principle-card">
+          <h3><span class="dot"></span>Clean by Design</h3>
+          <p>Focused on removing noise, not functionality. Core Windows features remain intact unless there is a clear, technical reason to change them.</p>
+        </div>
+        <div class="principle-card">
+          <h3><span class="dot"></span>Stability First</h3>
+          <p>Every stable release prioritizes predictability, long-term reliability, and controlled updates — so your everyday system just keeps working.</p>
+        </div>
+        <div class="principle-card">
+          <h3><span class="dot"></span>Transparency</h3>
+          <p>No hidden scripts. No undocumented changes. No "magic tweaks" without explanation. Users should understand what their system does and why.</p>
+        </div>
+        <div class="principle-card">
+          <h3><span class="dot"></span>Minimal, Not Broken</h3>
+          <p>Minimalism means fewer unnecessary processes, not missing capabilities. The goal is efficiency without sacrificing essential Windows behavior.</p>
+        </div>
+      </div>
+    </div>
+
+    <hr class="divider" />
+
+    <!-- Editions -->
+    <div class="section">
+      <div class="section-label">Edition</div>
+      <h2>One Build, Built for Everyday Use</h2>
+      <div class="editions-list">
+        <div class="edition-row">
+          <div class="edition-name">Workstation</div>
+          <div class="edition-desc">Windows, without the noise. Every unnecessary background process, tracking service, and pre-installed app is stripped out, while full compatibility and stability stay intact. Available for both x86_64 and ARM devices.</div>
+        </div>
+      </div>
+    </div>
+
+    <hr class="divider" />
+
+    <!-- Release Model -->
+    <div class="section">
+      <div class="section-label">Release Model</div>
+      <h2>R2 Release Model Overview</h2>
+      <p>R2 ships a single build — Workstation — so the release model stays simple: no product branches to choose between, just a steady cadence of updates that keep the system current and stable.</p>
+
+      <h3 class="subhead">Versioning Standard</h3>
+      <p>Workstation releases follow a straightforward Major/Minor model:</p>
+      <div class="principles-grid">
+        <div class="principle-card">
+          <h3><span class="dot"></span>Major Release (e.g. 1.0, 2.0)</h3>
+          <p>Triggered when Microsoft ships a new-generation LTSC platform / Windows kernel. The entire system is rebuilt from the new base.</p>
+        </div>
+        <div class="principle-card">
+          <h3><span class="dot"></span>Minor Release (e.g. 1.0 → 1.1 → 1.2)</h3>
+          <p>Periodic updates on the same current LTSC platform: the latest Cumulative security patches from Microsoft, refreshed custom UI (Start Menu Category UI, Floating Search Bar), minor bug fixes, and upgraded internal tools (Nux ToolBox).</p>
+        </div>
+      </div>
+
+      <h3 class="subhead">Verification &amp; Update Process</h3>
+      <div class="grid-auto">
+        <div class="principle-card">
+          <h3><span class="dot"></span>Windows Update Preserved</h3>
+          <p>The system update service is never blocked or removed. Monthly patches from Microsoft install smoothly without causing sign-in screen freezes.</p>
+        </div>
+        <div class="principle-card">
+          <h3><span class="dot"></span>Silent Patch Verification</h3>
+          <p>We test the compatibility of Microsoft patches before bundling them into the next Minor Release ISO.</p>
+        </div>
+        <div class="principle-card">
+          <h3><span class="dot"></span>Deep Ecosystem Integration</h3>
+          <p>Every release ships with its own optimization toolkit and a synchronized interface, ensuring a consistent experience across versions.</p>
+        </div>
+      </div>
+    </div>
+
+    <hr class="divider" />
+
+    <!-- Community -->
+    <div class="section">
+      <div class="section-label">Community Project</div>
+      <h2>Built by Enthusiasts, for Enthusiasts</h2>
+      <p>R2 is not a commercial product. It is a community project built by enthusiasts who care deeply about operating systems, performance, and long-term reliability.</p>
+      <p>Every release exists because someone needed it — and decided to build it properly.</p>
+      <p>R2 is built on a genuine Microsoft Windows platform. We do not replace Windows. We refine it — without feature stripping, artificial limitations, or aggressive rebranding.</p>
+    </div>
+
+    <hr class="divider" />
+
+    <!-- Who it's for -->
+    <div class="section">
+      <div class="section-label">Who It's For</div>
+      <h2>The Right Tool for the Right Job</h2>
+      <div class="for-list">
+        <div class="for-item">Everyday users who want a cleaner Windows</div>
+        <div class="for-item">People who care about privacy and don't want background tracking</div>
+        <div class="for-item">Laptop and ARM device owners who want better battery life</div>
+        <div class="for-item">Anyone who wants Windows to feel lighter without losing stability</div>
+      </div>
+      <div class="closing">
+        <p>If you're looking for enterprise deployment tools or server management features, R2 is not for you. If you just want your own Windows to feel lighter and quieter — welcome.</p>
+      </div>
+    </div>
+
+    <hr class="divider" />
+
+    <!-- Legal & Disclaimer -->
+    <div class="section">
+      <div class="section-label">Legal</div>
+      <h2>Legal &amp; Disclaimer</h2>
+      <p>This project is not affiliated with, endorsed by, sponsored by, or in any way officially connected with Microsoft Corporation, or any of its subsidiaries or affiliates. Windows, Windows IoT Enterprise LTSC, and all related trademarks are the property of Microsoft Corporation. All product and company names are trademarks or registered trademarks of their respective holders.</p>
+      <p>This project distributes a customized build of Windows — not an independent operating system. It is produced using the open-source Tiny11 Automated Builder toolkit to remove bloatware, disable telemetry, and optimize resource usage, while preserving Windows Update, Windows Defender, and core authentication services.</p>
+      <p>This is not a cracked or pre-activated build. No product keys, license bypasses, or activation exploits are bundled with any release. Users are required to activate their installation with their own valid, legitimately obtained Windows license, exactly as they would with an unmodified copy of Windows.</p>
+      <p>This project is built for personal, everyday use, not for enterprise deployment, licensing bypass, or activation circumvention.</p>
+    </div>
+
+  </div>
+
+  <footer>
+    © 2026 R2 &nbsp;|&nbsp; The R2 Community Project<br />
+    <span class="footer-disclaimer">Not affiliated with, endorsed by, or sponsored by Microsoft Corporation. Windows and related trademarks are the property of Microsoft Corporation. Users must activate with their own valid Windows license — no bundled or bypassed activation.</span>
+  </footer>
+
+  <script>
+    function toggleTheme() {
+      const html = document.documentElement;
+      html.classList.toggle('light');
+      localStorage.setItem('theme', html.classList.contains('light') ? 'light' : 'dark');
+    }
+    if (localStorage.getItem('theme') === 'light') {
+      document.documentElement.classList.add('light');
+    }
+  </script>
+</body>
+</html>

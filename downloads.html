@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Downloads — R2 Community Project</title>
+  <link rel="icon" type="image/png" href="/img/favicon.png" />
+  <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;600;700&family=Source+Sans+3:wght@300;400;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/css/style.css" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav>
+    <a href="/" class="logo">
+      <img src="/img/logo.png" width="36" height="36" alt="R2 logo" />
+      <div class="logo-text">
+        <span class="brand">R2</span>
+        <span class="sub">Community Project</span>
+      </div>
+    </a>
+    <ul class="nav-links">
+    <div class="nav-right">
+      <ul class="nav-links">
+        <li><a href="/about">About</a></li>
+        <li><a href="/downloads" class="active">Downloads</a></li>
+        <li><a href="/releases">Releases</a></li>
+        <li><a href="/community">Community</a></li>
+        <li><a href="https://github.com/vinhdubaii">Github</a></li>
+        <li><a href="/donate">Donate</a></li>
+      </ul>
+      <button class="theme-toggle" onclick="toggleTheme()" title="Toggle theme">
+        <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+        <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+      </button>
+    </div>
+  </nav>
+
+  <!-- PAGE HERO -->
+  <div class="page-hero">
+    <div class="label">Downloads</div>
+    <h1>Download R2 Workstation</h1>
+    <p>One clean build for everyday personal use. Choose the architecture that matches your device.</p>
+  </div>
+
+  <div class="container">
+
+    <div class="notice">
+      <strong>Note:</strong> All downloads are hosted on Google Drive. Files are provided as-is by the R2 Community Project. Current stable release: <strong>R2 Workstation 26.02.1</strong> — February 2026.
+    </div>
+
+    <!-- WORKSTATION -->
+    <div class="section-header">
+      <h2>Workstation Edition</h2>
+      <div class="line"></div>
+    </div>
+
+    <div class="editions-grid">
+
+      <!-- WORKSTATION -->
+      <div class="edition-card">
+        <div class="card-header">
+          <h3>Workstation</h3>
+          <span class="badge badge-stable">Stable</span>
+        </div>
+        <div class="card-body">
+          <p>Windows, without the noise. Every unnecessary background process, tracking service, and pre-installed app is stripped out, while full compatibility and stability stay intact. Available for both x86_64 and ARM devices.</p>
+          <div class="btn-group">
+            <a href="https://drive.usercontent.google.com/download?id=1ZLoqWQOgAeWdTfpeOpcMAM6qmOCYEhZ7&export=download&authuser=0" class="btn-dl">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+              <span class="btn-label">x86_64</span>
+              <span class="btn-sub">For standard desktops and laptops</span>
+            </a>
+            <a href="#" class="btn-dl">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+              <span class="btn-label">ARM</span>
+              <span class="btn-sub">Tuned for better battery efficiency on ARM-based devices</span>
+            </a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Other Versions Link -->
+    <div style="text-align: center; margin-top: 2.5rem; padding-top: 2rem; border-top: 1px solid var(--border);">
+      <p style="font-size: 0.88rem; color: var(--text-dim); margin-bottom: 0.75rem;">Looking for older builds?</p>
+      <a href="/other-versions" style="
+        display: inline-flex;
+        align-items: center;
+        gap: 0.5rem;
+        font-family: 'Rajdhani', sans-serif;
+        font-weight: 700;
+        font-size: 0.88rem;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+        color: var(--accent2);
+        text-decoration: none;
+        padding: 0.55rem 1.4rem;
+        border: 1px solid rgba(168,85,247,0.25);
+        border-radius: var(--radius-btn);
+        background: rgba(168,85,247,0.06);
+        transition: all 0.2s;
+      " onmouseover="this.style.borderColor='var(--accent)';this.style.background='rgba(168,85,247,0.14)'" 
+         onmouseout="this.style.borderColor='rgba(168,85,247,0.25)';this.style.background='rgba(168,85,247,0.06)'">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
+        Other Windows Versions
+      </a>
+    </div>
+
+  </div>
+
+  <footer>
+    © 2026 R2 &nbsp;|&nbsp; The R2 Community Project<br />
+  <span class="footer-disclaimer">Not affiliated with, endorsed by, or sponsored by Microsoft Corporation. Windows and related trademarks are the property of Microsoft Corporation. Users must activate with their own valid Windows license — no bundled or bypassed activation.</span>
+  </footer>
+
+  <script>
+    function toggleTheme() {
+      const html = document.documentElement;
+      html.classList.toggle('light');
+      localStorage.setItem('theme', html.classList.contains('light') ? 'light' : 'dark');
+    }
+    if (localStorage.getItem('theme') === 'light') {
+      document.documentElement.classList.add('light');
+    }
+  </script>
+</body>
+</html>

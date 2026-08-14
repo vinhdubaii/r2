@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Donate — R2 Community Project</title>
+  <link rel="icon" type="image/png" href="/img/favicon.png" />
+  <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;600;700&family=Source+Sans+3:wght@300;400;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/css/style.css" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav>
+    <a href="/" class="logo">
+      <img src="/img/logo.png" width="36" height="36" alt="R2 logo" />
+      <div class="logo-text">
+        <span class="brand">R2</span>
+        <span class="sub">Community Project</span>
+      </div>
+    </a>
+    <div class="nav-right">
+    <ul class="nav-links">
+      <li><a href="/about">About</a></li>
+      <li><a href="/downloads">Downloads</a></li>
+      <li><a href="/releases">Releases</a></li>
+      <li><a href="/community">Community</a></li>
+      <li><a href="https://github.com/vinhdubaii">Github</a></li>
+      <li><a href="/donate" class="active">Donate</a></li>
+    </ul>
+    <button class="theme-toggle" onclick="toggleTheme()" title="Toggle theme">
+      <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+      <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+    </button>
+    </div>
+  </nav>
+
+  <main>
+    <div class="donate-wrap">
+
+      <!-- Header -->
+      <div class="donate-header">
+        <span class="heart">💙</span>
+        <h1>Support <span>R2</span></h1>
+      </div>
+
+      <!-- Description -->
+      <div class="desc-card">
+        <p>R2 is an <span class="highlight">independent, community-driven Windows ecosystem project</span> built for stability, performance, and long-term reliability — from Server and Enterprise to Workstation and Gaming.</p>
+        <p>Maintained by a solo developer, the project requires resources for hosting, storage, testing, and continuous development.</p>
+        <p>R2 does not rely on intrusive ads or forced monetization. If you find value in this project, your support helps keep it <span class="highlight">sustainable and evolving</span>.</p>
+        <p>Every contribution — big or small — makes a difference.</p>
+      </div>
+
+      <!-- Donate section -->
+      <div class="divider-label">Choose a way to give that suits you</div>
+
+      <div class="momo-card">
+        <div class="qr-frame">
+          <img src="https://raw.githubusercontent.com/nuxos-dev/nuxos-dev.github.io/refs/heads/main/momo.jpg" alt="MoMo QR Code" />
+        </div>
+
+        <br/>
+        <a href="https://raw.githubusercontent.com/nuxos-dev/nuxos-dev.github.io/refs/heads/main/momo.jpg" class="btn-momo" target="_blank">
+          💜 Donate with MoMo
+        </a>
+      </div>
+
+      <p class="thankyou">Thank you for supporting independent development.</p>
+
+    </div>
+  </main>
+
+  <footer>
+    © 2026 R2 &nbsp;|&nbsp; The R2 Community Project<br />
+  <span class="footer-disclaimer">Not affiliated with, endorsed by, or sponsored by Microsoft Corporation. Windows and related trademarks are the property of Microsoft Corporation. Users must activate with their own valid Windows license — no bundled or bypassed activation.</span>
+  </footer>
+
+  <script>
+    function toggleTheme() {
+      const html = document.documentElement;
+      html.classList.toggle('light');
+      localStorage.setItem('theme', html.classList.contains('light') ? 'light' : 'dark');
+    }
+    if (localStorage.getItem('theme') === 'light') {
+      document.documentElement.classList.add('light');
+    }
+  </script>
+</body>
+</html>
